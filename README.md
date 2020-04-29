@@ -1,2 +1,2 @@
 # Tortoise-and-the-Hare
-Game built in C++
+Game to exercise use of pointers in C++
