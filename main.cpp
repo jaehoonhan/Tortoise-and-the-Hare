@@ -41,7 +41,7 @@ while (T != FINISH_LINE && H != FINISH_LINE)
 TortoiseRun(TPtr); //function to determine tortoise's next  step
 HareRun(HPtr);     // function to determine hare's next step
 Positions(T, H);   // display positions after steps have been recorded
-chrono::milliseconds dura( 50);
+chrono::milliseconds dura( 100);
 this_thread::sleep_for( dura );
     //Sleep(1000); // Pause "while" loop for 1000 milliseconds (1second)
 }
